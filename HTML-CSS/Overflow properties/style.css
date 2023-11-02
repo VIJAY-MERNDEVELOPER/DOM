@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+/* google fonts their can be taken additional fonts neede and can import in style sheet or it can  be link in html */
+
+/* .main-container{
+
+} */ 
+
+.overflow-container{
+    height: 300px;
+    border: 2px solid black;
+    width: 50%;
+    background-color: azure;
+    padding: 5px;
+    font-family: 'Pixelify Sans', cursive;
+    /* overflow: auto; */
+    /* overflow: visible;   overflow content will visible */
+   /* scroll will give scrolling option in x and y axis */
+    overflow: scroll;
+    /* hidden property will hide the overflow content */
+    /* overflow: hidden; */
+    /* overflow-x will hide content on X-axis */
+    /* overflow-x: hidden; */
+    padding: 50px;
+    
+}
+
+.mes{
+    height: 200px;
+    border: 2px solid black;
+    width: 50%;
+    
+    margin-top: 20px ; 
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.sam-1{
+
+     height: 50px;
+     width: 50px;
+     /* size: 70px 150px; */
+     /* border: 2px solid black; */
+     background-color: aqua;
+    
+
+}
+
+.sam-2{
+ 
+    font-size: 20px;
+    /* height: 50px;
+    width: 50px; */
+    /* size: 70px 150px; */
+    /* border: 2px solid black; */
+    background-color: brown;
+
+
+}
+
+/* Measurements
+* px(pixel) = (1/96 of 1-inch)
+* pt(points) = (1/72 of inch)
+* pc(picas)=(1/12 of inch)
+* 1vh (view heights) = 1inch
+* vw-view height
+*% percentage
+
+*/
+
+/* Relative measurements
+* em -relative to the font-size of parent element
+* rem- relative to font size of root element
+*/
+
+.inside{
+   width: 1em;
+   height: 1em;
+   background-color: bisque;
+
+}

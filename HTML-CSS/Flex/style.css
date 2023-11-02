@@ -1,0 +1,55 @@
+/*  * indicates the all body 
+whatever properties given inside * will reflect to entire body*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.txt-cen{
+    
+    background-color: bisque;
+    text-align: center;
+}
+
+#main-container{
+    height: 620px;
+    margin: 27px;
+    /* background-color: red; */
+    border: 2px solid blue;
+    /* to make boxes to each different alignment we use flex */
+    display: flex; 
+     gap: 1rem;
+    /* flex wrap will  not allow to change dimension when the window shrink */
+    /* flex-wrap: wrap; */
+    /* flex-flow property can mention wrap and direction party in single property */
+    flex-flow: row wrap;
+    /* flex-direction: column; */
+     /* justify-content(x-axis direction) property is used to control how flex items are aligned along the main axis of a flex container */
+    /* justify-content: space-around; */
+    justify-content: center;
+   /* justify-content: space-between; */
+   /* justify-content: flex-end; */
+   /* justify-content: flex-start; */
+   /* justify-content: space-evenly; */
+   /* justify-content: stretch; */
+
+
+    /* align content for Y-axis direction */
+    /* align-content: center; */
+    align-content: space-evenly;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 2px solid rgb(28, 6, 6);
+    /* margin with "0 auto" property all come to centre */
+    /* margin: 0 auto; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

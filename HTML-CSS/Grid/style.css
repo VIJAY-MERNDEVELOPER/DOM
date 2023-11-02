@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-main {
+  border: 5px solid black;
+  height: 600px;
+  margin: 15px;
+  padding: 15px;
+  /* when display is given grid then it will assign with equal spaces */
+  display: grid;
+  background-color: beige;
+  /* place-items: center; */
+  /* split in rows */
+  grid-template-rows: 100px 390px 100px;
+  /* split in columns */
+  grid-template-areas:
+    "head head  "
+    "side main "
+    "foot foot ";
+
+  /* shorthand notation in which we can assign row and colum assign in single */
+  /* grid-template: "head head head" 100px
+                    "side main main" 390px
+                     "side foot foot" 100px; */
+}
+
+.header {
+  background-color: brown;
+  grid-area: head;
+  border-radius: 5px;
+}
+
+.sidebar {
+  background-color: blueviolet;
+  grid-area: side;
+}
+
+.main {
+  background-color: blue;
+  grid-area: main;
+}
+
+.footer {
+  background-color: cadetblue;
+  grid-area: foot;
+}
+
+#main-container {
+  margin: 15px;
+  height: 600px;
+  border: 5px solid black;
+  display: grid;
+  /* place-items: center; */
+  /* grid-template-columns: 50px 50px 50px 50px; */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 15px;
+}
+
+.box {
+  border: 1px solid red;
+  text-align: center;
+  background-color: orange;
+  /* width: 50px;
+    height: 50px; */
+}

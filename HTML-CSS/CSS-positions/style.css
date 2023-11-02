@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main-box{
+    background-color: azure;
+border: 2px solid black ;
+height: 500px;
+width: 500px;
+margin: 0 auto;
+
+}
+
+.box{
+border: 2px solid black;
+width: 100px;
+height: 100px;
+margin: 5px;
+text-align: center;
+color: black;
+}
+
+.absolute{
+    /* absolute position will move from container and take referral as window screen */
+    /* position: absolute; */
+    left: auto;
+    background-color: blanchedalmond ;
+    
+}
+.relative{
+    /* It moves with referral to the parent tag */
+    background-color: blue;
+    /* margin-left: 150px; */
+    position: relative;
+    right: 300px;
+}
+
+.fixed{
+    /* it will fixed it to its original position and it will not move */
+    background-color: blueviolet;
+    position: fixed; 
+    top: 0;
+    right: 0;
+}
+.sticky{
+    background-color: brown;
+    position: sticky; 
+    top: 0;
+    
+}
+
+.parent{
+    font-size: 24px;
+    font-style: italic;
+    /* to make linear gradient colour */
+    background: linear-gradient(to right, yellow, gray);
+}
+
+p{
+  /* font-size: 18px;
+  font-style: normal; */
+  font: 25px normal;
+  background: radial-gradient(circle, aliceblue, orange);
+}
+
+.child{
+  font: inherit;
+  /* background: none; */
+
+}

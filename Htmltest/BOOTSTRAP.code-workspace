@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../BOOTSTRAP"
+		},
+		{
+			"path": "../DOM"
+		},
+		{
+			"path": "../HTML-CSS"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Htmltest"
+	}
+}

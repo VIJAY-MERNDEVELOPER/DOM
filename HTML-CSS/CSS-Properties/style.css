@@ -64,3 +64,20 @@ a:visited{
     background-color: aqua;
 
 }
+
+li:first-child{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* to point out specific list use this type */
+
+ol>li:first-child{
+    font-style: italic;
+    font-size: larger  ;
+}
+
+/* for ignoring the specific in list give class and use "li:not()"  */
+
+li:not(.not-list){
+    color: blue;
+}

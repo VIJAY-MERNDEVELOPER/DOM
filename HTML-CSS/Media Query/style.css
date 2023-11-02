@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  margin: 50px;
+  display: grid;
+  border: 2px solid black;
+  place-items: right;
+}
+
+.side-bar {
+  height: 500px;
+  width: 200px;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  place-items: center;
+}
+.main-bar{
+
+    height: 500px;
+    width: 800px;
+    padding: 20px;
+    margin: 50px;
+    border: 2px solid black;
+}
