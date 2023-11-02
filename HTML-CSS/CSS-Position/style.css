@@ -1,0 +1,66 @@
+.txt-cen{
+    text-align: center;
+}
+.box-out{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+   
+}
+
+.box-mod{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    /* padding: 10px; */
+    padding: 10px 20px 30px 15px;
+    /* padding assign as - top right bottom left */
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 20px ;
+   
+}
+
+button{
+    /* padding will give additional  space from centre */
+    padding: 5px;
+   
+    /* Margin will give space between outer and border */
+    margin: 20px;
+    /* border is top of padding */
+    border: 2px solid gray;
+    
+    border-radius: 15px;
+}
+
+/* pseudo classes */
+
+/* hover is moving mouse pointer over the window */
+button:hover{
+    background-color: blue;
+    /* to change pointer into hand */
+    cursor: pointer;
+}
+
+
+a:hover{
+    background-color: orange;
+
+}
+
+/* when action is taking place like click */
+a:active{
+    color: bisque;
+    background-color: black;
+}
+
+a:visited{
+    color: brown;
+    
+}
+
+/* when clicking it will hightlight that particular */
+.inp-fld:focus{
+    background-color: aqua;
+
+}

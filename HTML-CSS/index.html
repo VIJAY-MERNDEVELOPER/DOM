@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+    </style>
+
+<!-- EXTERNAL CSS - it is creating seperate CSS style sheet and linking at head -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- <div>
+    <h2>I'm div tag</h2>
+ </div> -->
+
+    <!-- Inline Css -You can apply CSS styles directly to individual HTML elements using the style attribute. -->
+    <h1 style="color: blue;">HTML & CSS</h1>  
+
+    <!-- Internal or Embedded CSS -  You can include CSS rules within the <style> element in the <head> section of your HTML document.
+                                     This way, you can define styles that apply to multiple elements within that HTML document.  -->
+    <h1>INTERNAL OR EMBEDED CSS</h1>    
+
+    <p>While there are situations where inline or embedded CSS may be appropriate (e.g., for quick prototyping or when styles are specific to a single element),
+         using an external stylesheet linked in the <head> element is generally considered a best practice for maintaining clean, efficient, and maintainable web code.  </p>
+       <br>
+     <b> * seperation of concerns   </b>  -<i> It is maintaining style (CSS) seperately from the content is more organized and easier to maintan </i>   <br>
+     <b>* Reusability </b> - <i>Using CSS in head then the rules can be applied to the whole Document and reducing redundancy and making update more effiecient</i><br>
+     <b>* performance</b> - <i>Once the user visits the webpage the CSS already downloaded in cache and it can be loaded fast in next search</i><br>
+     <b>* Easy of maintenance</b>-<i>By maintainaing CSS at head section it is easier to do modification and maintain as it reflects for whole page</i><br>
+     <b>* Browser Rendering</b>-<i>By placing CSS at head tag it load before the content as it result user better experience</i><br>
+     <b>* Accessibility</b><br>
+     <b>* Global styling control</b>
+  
+    <h2 style="color: black;">PRIORITY LIST</h2>
+    <ol>
+    <li >inliine CSS</li>
+    <li>Internal CSS</li>
+    <li>External CSS</li>
+    </ol>
+
+    <ul>
+        <li>Vijay</li>
+        <li>Kalai</li>
+        <li>Rajesh</li>
+    </ul>
+
+    <h2>EXTERNAL CSS</h2>
+
+    <h1>
+        Class and ID
+    <main>
+        <div class="ele brd">Element1</div>
+        <div id="uni-ele">Element2</div>
+        <div id="uni-ele">Element3</div>
+        <div>Element4</div>
+    </main>
+</h1>
+  <div class="ele-col">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat labore velit beatae praesentium inventore id possimus ipsam adipisci dolores dolor deleniti facere sit, ullam officia suscipit provident eos, quas corrupti.
+    Natus voluptatibus possimus nostrum quae? Recusandae saepe perspiciatis distinctio expedita earum possimus, necessitatibus itaque odit sapiente voluptatem dolores, vitae eius officiis quia sed nam qui corrupti explicabo veritatis. Animi, officia?
+    Iure aperiam neque error nostrum suscipit accusamus porro eaque perspiciatis reiciendis, repellat deleniti soluta tenetur nulla aspernatur rerum in velit, assumenda, temporibus minus! Illo est saepe, enim ad magni corrupti!
+    Assumenda ea expedita explicabo magnam exercitationem quo odit corporis ad est repudiandae amet placeat alias odio, facilis ullam aut perspiciatis, deserunt animi tempora distinctio! Laborum quisquam accusantium blanditiis voluptatum nihil!
+  </div>
+
+  <div class="ele-col" id="id-select">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita corrupti sunt aspernatur unde, vitae odit deleniti suscipit architecto perspiciatis quaerat, consequuntur eaque beatae nulla, ipsa culpa reiciendis. Cupiditate, blanditiis voluptate.
+    Enim illum magni recusandae error ullam, quisquam minima iure hic ipsam voluptatum, assumenda tempora? Fugiat reiciendis neque, harum quis, natus repellendus expedita at quos dolorem delectus dolores, veniam exercitationem odit.
+    Minus amet omnis consequatur ullam aspernatur architecto velit, dolore commodi maiores sequi. Error, voluptate, laborum itaque asperiores neque non nulla quo facere tempore fugiat aperiam, reprehenderit ea repellendus! Illum, et!
+    Dolorem sit rem eos iusto. Ea laborum incidunt magni tempore sed nihil doloremque adipisci at ullam a nulla, repudiandae, aliquid, deleniti harum. Quibusdam quisquam dolorem iure unde perferendis? Aut, sit.
+  </div>
+
+  <div id="container">
+        <a href="#">Link 1</a>
+        <a href="#" class="ank-link">Link 2</a>
+  </div>
+
+  <h1>BLOCK</h1>
+
+  <!-- inline element can be converted in block level element -->
+
+  <span class="block">Home</span>
+  <span class="block">about</span>
+  <span class="block">contact</span>
+  <span class="block">project</span>
+
+  <h1>INLINE</h1>
+
+  <div class="inline">Home</div>
+  <div class="inline">About</div>
+  <div class="inline">Contact</div>
+  <div class="inline">Project</div>
+  <br>
+
+  <h1>INLINE BLOCK</h1>
+  <div class="inline-block">Home</div>
+  <div class="inline-block">About</div>
+  <div class="inline-block">Contact</div>
+  <div class="inline-block">Project</div>
+  
+</body>
+</html>
+<!--  -->
